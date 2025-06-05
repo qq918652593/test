@@ -3,5 +3,16 @@
     初始版本
   </CHANGES>
   <ICON>https://raw.githubusercontent.com/unraid/lang-zh_CN/master/Unraid.png</ICON>
-  <PAGE>https://raw.githubusercontent.com/qq918652593/test/refs/heads/main/helloworld.page</PAGE>
+  <FILE Name="/usr/local/emhttp/plugins/helloworld/helloworld.page" Run="upgrade">
+    <![CDATA[
+<FORM method="post">
+  <div style="text-align:center;margin-top:60px;">
+    <h1 style="color:#2d8cf0;font-size:3em;">Hello World</h1>
+    <p style="font-size:1.2em;">这是你的第一个 Unraid 插件页面！</p>
+    <button type="button" onclick="alert('欢迎使用 Unraid 插件！')" style="padding:10px 30px;font-size:1em;background:#2d8cf0;color:#fff;border:none;border-radius:5px;cursor:pointer;">点我试试</button>
+  </div>
+</FORM>
+    ]]>
+  </FILE>
+  <PAGE>helloworld.page</PAGE>
 </PLUGIN> 
