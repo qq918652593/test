@@ -1,0 +1,7 @@
+<PLUGIN name="helloworld" author="AI助手" version="2024.06.01" min="6.9.0">
+  <CHANGES>
+    初始版本
+  </CHANGES>
+  <ICON>https://raw.githubusercontent.com/unraid/lang-zh_CN/master/Unraid.png</ICON>
+  <PAGE>https://wgzztalist.921217.xyz/d/Alist/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/helloworld.page?sign=W6Asz9yhjMZeLkISFehHje7l2GqvqvX_yhAoV6oP7ZA=:0</PAGE>
+</PLUGIN> 
